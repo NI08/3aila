@@ -1,0 +1,76 @@
+#logo{
+    width : 19%;
+    height : 19%;
+    display: block;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: Andale Mono, monospace;
+    margin-bottom: 2rem;
+}
+
+button{
+    font-size: 300%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+img{
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+video{
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1024px){
+    button{
+    font-size: 500%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+    h1{
+    text-align: center;
+    font-family: Andale Mono, monospace;
+    margin-bottom: 5rem;
+}
+    #logo{
+    width : 30%;
+    height : 30%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+    img{
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    max-width: 90%;
+}
+    video{
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    max-width: 90%;
+}
+
+}
